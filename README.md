@@ -18,6 +18,8 @@ Install [Grafana](https://github.com/kubernetes/charts/tree/master/stable/grafan
 
 ## Useful dashboards
 * [Nginx Ingress Stats](https://grafana.com/dashboards/3050)
-* [Kubernetes cluster monitoring (via Prometheus)](https://grafana.com/dashboards/315) - excellent dashboard that requires Kubernetes 1.7.3+ and cAdvisor to be installed
+* [Kubernetes Cluster Monitoring (via Prometheus)](https://grafana.com/dashboards/315) - excellent dashboard that requires Kubernetes 1.7.3+ and cAdvisor to be installed
+  * Download the json file, replace `^/dev/[sv]da9$` with `^/dev/.*$`, and import the updated json file
+* [Kubernetes Deployment Metrics](https://grafana.com/dashboards/741) - requires Kubernetes 1.7.3+ and cAdvisor to be installed
 
 **Note: The https://prometheus-server/targets page provides health stats of your Prometheus Scrape Targets.**
