@@ -29,7 +29,7 @@ Install [Grafana](https://github.com/kubernetes/charts/tree/master/stable/grafan
   * Update Grafana helm chart values.yaml:
     * Add grafana-worldmap-panel to `server.installPlugins`
     * Upgrade Grafana release with the new values
-  * Download the json file, replace `[1m]` with `[5m]`, and import the updated json file
+  * Download the json file, replace `[1m]` with `[2m]`, and import the updated json file
 * [Kubernetes Cluster Monitoring (via Prometheus)](https://grafana.com/dashboards/315) - excellent dashboard that requires Kubernetes 1.7.3+ and cAdvisor to be installed
   * Update Prometheus helm chart values.yaml:
     * Update the `scrape_configs` per the dashboard instructions
